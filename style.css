@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+.cover {
+  background-image: url(/images/typing.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover .myPicture {
+  border: 4px solid #FF6666;
+  position: relative;
+  margin-top: 240px;
+  margin-left: 40px;
+}
+
+.container {
+  color: #FF6666;
+  padding: 50px 0px;
+}
+
+.color-container {
+  background-color: #D6FFEB;
+  color: #282828;
+}
+
+.info {
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.findMe {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.findMe div {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.findMe img {
+  width: 57px;
+  height: 60px;
+}
