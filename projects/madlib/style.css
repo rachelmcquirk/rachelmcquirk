@@ -1,0 +1,40 @@
+body {
+  font-family: 'roboto';
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  background-color: #f6f6f6;
+  color: #282828;
+}
+
+h1 {
+  color: #FF6666;
+}
+
+h3{
+  color: #FF6666;
+}
+
+#head {
+  background-color: #262626;
+  color: #FF6666;
+  padding: 30px;
+}
+
+#container {
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}
+
+#story {
+  max-width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
