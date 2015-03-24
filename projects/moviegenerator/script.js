@@ -166,7 +166,7 @@ var buttonClick = function() {
   title.innerHTML = randomMovie.title;
   imdb.innerHTML = 'imdb rating: ' + randomMovie.imdb;
   genre.innerHTML = randomMovie.genre;
-  picture.innerHTML = '<img src=\'' + randomMovie.picture + '\'>';
+  picture.innerHTML = '<img src=\'' + randomMovie.picture + '\' height="322" width="214">';
   summary.innerHTML = '<br>' + randomMovie.summary;
   trailer.innerHTML = '<a href="' + randomMovie.trailer + '" id="trailerLink">Watch Trailer</a>';
   var trailerLink = document.getElementById('trailerLink');
