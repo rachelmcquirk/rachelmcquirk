@@ -164,7 +164,7 @@ var lightBox = document.getElementById('lightbox');
 var buttonClick = function() {
   var randomMovie = movieArray[Math.floor(Math.random() * movieArray.length)];
   title.innerHTML = randomMovie.title;
-  imdb.innerHTML = 'imdb rating: ' + randomMovie.imdb;
+  imdb.innerHTML = 'IMDb rating: ' + randomMovie.imdb;
   genre.innerHTML = randomMovie.genre;
   picture.innerHTML = '<img src=\'' + randomMovie.picture + '\' height="322" width="214">';
   summary.innerHTML = '<br>' + randomMovie.summary;
