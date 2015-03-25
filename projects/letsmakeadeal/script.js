@@ -48,7 +48,7 @@ var firstClick = function() {
       if (this === blueDoor) {
         heading.innerHTML = 'You Lose!';
         paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something cringeworthy.';
-        greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xYc4DT18EJg" frameborder="0" allowfullscreen></iframe>';
+        greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ksBE53CIT8E" frameborder="0" allowfullscreen></iframe>';
         blueDoor.innerHTML = '';
         orangeDoor.innerHTML = "";
         playAgain.innerHTML = '<a href="http://rachelmcquirk.com/projects/letsmakeadeal/index.html">Play Again?</a>';
@@ -80,7 +80,7 @@ var firstClick = function() {
       if (this === blueDoor) {
         heading.innerHTML = 'You Lose!';
         paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something cringeworthy.';
-        greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xYc4DT18EJg" frameborder="0" allowfullscreen></iframe>';
+        greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ksBE53CIT8E" frameborder="0" allowfullscreen></iframe>';
         blueDoor.innerHTML = '';
         orangeDoor.innerHTML = "";
         playAgain.innerHTML = '<a href="http://rachelmcquirk.com/projects/letsmakeadeal/index.html">Play Again?</a>';
