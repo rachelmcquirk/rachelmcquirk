@@ -17,14 +17,14 @@ var firstClick = function() {
         if (this === orangeDoor) {
           heading.innerHTML = 'You Lose!';
           paragraph.innerHTML = 'Oh, too bad! Here is your cringeworthy video.';
-          greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/HTlp7e4xEis" frameborder="0" allowfullscreen></iframe>';
+          greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/m1EsDXSgVjA" frameborder="0" allowfullscreen></iframe>';
           blueDoor.innerHTML = "";
           orangeDoor.innerHTML = '';
           playAgain.innerHTML = '<a href="http://rachelmcquirk.com/projects/letsmakeadeal/index.html">Play Again?</a>';
         }
         else if (this === greenDoor) {
           heading.innerHTML = 'You Win!!!';
-          paragraph.innerHTML = 'Yay! Press play to reveal your awesome prize!';
+          paragraph.innerHTML = 'Yay! Press play to reveal your awesome video!';
           greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/6w2UxDdhZPk" frameborder="0" allowfullscreen></iframe>';
           blueDoor.innerHTML = "";
           orangeDoor.innerHTML = "";
@@ -47,7 +47,7 @@ var firstClick = function() {
       var playAgain = document.getElementById('playAgain');
       if (this === blueDoor) {
         heading.innerHTML = 'You Lose!';
-        paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something awful.';
+        paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something cringeworthy.';
         greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xYc4DT18EJg" frameborder="0" allowfullscreen></iframe>';
         blueDoor.innerHTML = '';
         orangeDoor.innerHTML = "";
@@ -55,7 +55,7 @@ var firstClick = function() {
       }
       else if (this === greenDoor) {
         heading.innerHTML = 'You Win!!!';
-        paragraph.innerHTML = 'Yay! Press play to reveal your awesome prize!';
+        paragraph.innerHTML = 'Yay! Press play to reveal your awesome video!';
         greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/6w2UxDdhZPk" frameborder="0" allowfullscreen></iframe>';
         blueDoor.innerHTML = "";
         orangeDoor.innerHTML = "";
@@ -79,7 +79,7 @@ var firstClick = function() {
       var playAgain = document.getElementById('playAgain');
       if (this === blueDoor) {
         heading.innerHTML = 'You Lose!';
-        paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something awful.';
+        paragraph.innerHTML = 'That\'s unfortunate. Press play to reveal something cringeworthy.';
         greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xYc4DT18EJg" frameborder="0" allowfullscreen></iframe>';
         blueDoor.innerHTML = '';
         orangeDoor.innerHTML = "";
