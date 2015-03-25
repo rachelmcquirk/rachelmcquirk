@@ -16,8 +16,8 @@ var firstClick = function() {
         var playAgain = document.getElementById('playAgain');
         if (this === orangeDoor) {
           heading.innerHTML = 'You Lose!';
-          paragraph.innerHTML = 'Oh, too bad! Here is your awful thing.';
-          greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/iRUSQm5ZskQ" frameborder="0" allowfullscreen></iframe>';
+          paragraph.innerHTML = 'Oh, too bad! Here is your cringeworthy video.';
+          greenDoor.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/HTlp7e4xEis" frameborder="0" allowfullscreen></iframe>';
           blueDoor.innerHTML = "";
           orangeDoor.innerHTML = '';
           playAgain.innerHTML = '<a href="http://rachelmcquirk.com/projects/letsmakeadeal/index.html">Play Again?</a>';
