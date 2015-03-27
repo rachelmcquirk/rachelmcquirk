@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+#content {
+  width: 625px;
+}
+
+.threeimages {
+  height: 231px;
+  width: 648px;
+}
+.question {
+    height: 380px;
+    width: 625px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+img {
+  height: 180px;
+  width: 180px;
+  padding-top: 10px;
+}
+
+.quiz_answer {
+  background-color: #f2f2f2;
+  width: 200px;
+  height: 231px;
+  display: inline-block;
+  border: 2px solid #d8d8d8;
+}
+
+.answerbox {
+  length: 175px;
+  width: 21px;
+}

@@ -1,7 +1,7 @@
 var button = document.getElementById('button');
 
 var buttonClick = function() {
-  if(document.querySelectorAll('input:checked').length < 11)
+  if(document.querySelectorAll('input:checked') < 11)
     alert('Oops, looks like you haven\'t answered all of the questions!');
 
   var answers = {
@@ -16,13 +16,12 @@ var buttonClick = function() {
   q9: document.querySelector('input[name="q9"]:checked').value,
   q10: document.querySelector('input[name="q10"]:checked').value,
   q11: document.querySelector('input[name="q11"]:checked').value,
-};
+  };
 
   var message = document.getElementById('message');
   for(var key in answers) {
-    message.innerHTML += (answers[key]) + " ";
+    message.innerHTML += answers[key] + " ";
   }
-
 };
 
 
