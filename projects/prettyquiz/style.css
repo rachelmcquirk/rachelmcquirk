@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 50px;
+}
+
+#content {
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-weight: bold;
+  margin: auto;
+}
+
+.quiz_question {
+  padding-bottom: 50px;
+}
+.question {
+    height: 337px;
+    width: 625px;
+    background-color: gray;
+    margin-bottom: 20px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 84px;
+    position: relative;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.threeimages {
+  position: relative;
+  height: 231px;
+  width: 625px;
+  padding: 0;
+}
+
+img {
+  height: 180px;
+  width: 180px;
+  padding-top: 10px;
+}
+
+.quiz_answer {
+  background-color: #f2f2f2;
+  width: 200px;
+  height: 231px;
+  display: inline-block;
+  border: 2px solid #d8d8d8;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  }
+
+.quiz_answer:hover {
+  background-color: rgba(66, 205, 136, 0.57);
+}
+
+button {
+  margin: 30px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  color: rgb(26, 115, 101);
+  text-decoration: none;
+  background-color: #8EBFFF;
+}
+
+#question1 {
+  background-color: #ccc;
+}
+
+#question2 {
+  background-color: rgba(255, 255, 0, 0.67);
+}
+
+#question3 {
+  background-color: rgb(175, 117, 190);
+}
+
+#question4 {
+  background-color: rgba(80, 205, 8, 0.51);
+}
+
+#question5 {
+  background-color: rgba(115, 115, 205, 0.73);
+}
+
+#question6 {
+  background-color: rgb(112, 211, 112);
+}
+
+#question7 {
+  background-color: rgba(255, 126, 0, 0.69);
+}
+
+#question8 {
+  background-color: rgba(35, 211, 131, 0.66);
+}
+
+#question9 {
+  background-color: FF6666;
+}
+
+#img {
+  height: 340px;
+  width: 525px;
+  margin-bottom: 80px;
+}
+
+#results {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-family: 'Bree Serif', serif;
+}
