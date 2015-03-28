@@ -1,7 +1,7 @@
 var button = document.getElementById('button');
 
 var buttonClick = function() {
-  if(document.querySelectorAll('input:checked') < 11)
+  if(document.querySelectorAll('input:checked') < 9)
     alert('Oops, looks like you haven\'t answered all of the questions!');
 
   var answers = {
