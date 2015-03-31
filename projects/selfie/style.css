@@ -53,5 +53,10 @@ button:hover {
 }
 
 button:active {
-  background-color: rgb(79, 205, 137);
+  background-color: rgb(96, 178, 133);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
 }
