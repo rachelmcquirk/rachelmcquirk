@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link href='style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Kreon|Alegreya|Oswald|Dancing+Script|Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>Selfie Space</title>
+  </head>
+
+  <body>
+    <img src='/images/camera.svg' height='60' width='60'><h1>Selfie Space</h1>
+    <p>A place for your face</p>
+
+    <div id="container">
+      <video autoplay="true" id="videoElement"></video>
+    </div>
+
+    <button id='button'>Say "Selfie!"</button>
+    <br>
+    <canvas id="drawCanvas" class="hide" height="480" width="640"></canvas>
+    <div id='screenshot'></div>
+
+    <script src='script.js'></script>
+  </body>
+
+</html>

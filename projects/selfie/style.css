@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(230, 228, 231);
+  }
+
+h1 {
+  font-family: 'Dancing Script', cursive;\
+  padding-top: 30px;
+  font-size: 50px;
+  margin: 0;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+p{
+  color: gray;
+  font-size: 16px;
+}
+
+img{
+  display: inline-block;
+}
+
+#container {
+    margin: 0px auto;
+    width: 640px;
+    height: 420px;
+    border: 10px #333 solid;
+}
+#videoElement {
+    width: 640px;
+    height: 420px;
+    background-color: #666;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background-color: rgb(141, 208, 172);
+  color: rgb(76, 74, 74);
+  padding: 12px 16px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: rgb(116, 197, 153);
+}
+
+button:active {
+  background-color: rgb(79, 205, 137);
+}
