@@ -1,0 +1,62 @@
+.navbar-default{
+  margin: 0 !important;
+}
+
+.navbar-nav {
+  font-size: 17px;
+}
+
+.navbar-default .nav-pills > li > a {
+  background-color: rgb(171, 223, 195);
+  color: rgb(83, 87, 85);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar-default .nav-pills > li.active > a {
+  background-color: rgb(223, 158, 190);
+  color: rgb(83, 87, 85);
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url('/images/sweet/cupcake.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  background-color: #efefef;
+  border-top: 1px solid #dbdbdb;
+  padding: 30px;
+}
+
+.info h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 16px;
+}
+
+p > a > img {
+  margin-right: 10px;
+}
+
+a {
+  color: #333;
+}
+
+.small {
+  width: 132px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
