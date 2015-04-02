@@ -29,8 +29,18 @@ var buttonClick = function() {
     }
     answerCounter[answers[key]] += 1;
   }
+/*
+  // eg {beach: 1, culture: 3, disney: 2}
+  var mostCommonAnswer = {answer: 'none', count: 0};
 
-  //need to store answercounter obj in an array
+  for(var k in answerCounter) {
+    if(answerCounter[k] > mostCommonAnswer.count) {
+      mostCommonAnswer.answer = k;
+      mostCommonAnswer.count = answerCounter[k];
+    }
+  }
+*/
+  //need to store answercounter obj in an array.
   var answerCounterArray = []
   for(var k in answerCounter) {
     answerCounterArray.push(answerCounter[k]);
