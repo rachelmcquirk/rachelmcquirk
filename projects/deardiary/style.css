@@ -1,0 +1,45 @@
+textarea {
+  height: 485px;
+  width: 1000px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  border: 2px dashed gray;
+  display: inline-block;
+  background-color: rgba(197, 247, 230, 0);
+  padding: 15px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: rgba(197, 247, 230, 0.21);
+}
+
+h1 {
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+button {
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border: 2px solid rgb(213, 110, 86);
+    padding: 5px 16px;
+    background-color: rgb(252, 139, 124);
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#container {
+  display: flex;
+}
+
+img {
+  margin-top: auto;
+  margin-left:auto;
+}
