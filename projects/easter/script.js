@@ -7,7 +7,7 @@ var creepy = document.getElementById("creepy");
 
 var onClick = function() {
   clicks += 1;
-  bunny.style.height = (parseFloat(bunny.style.height) - 4) + "px";
+  bunny.style.height = (parseInt(bunny.style.height) - 4) + "px";
 
 
   if(clicks % 6 === 0) {
