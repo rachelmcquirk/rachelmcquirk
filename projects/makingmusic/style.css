@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 50px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#instrument {
+  height: 115px;
+  width: 836px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  line-height: 400px;
+}
+
+#c{
+  background-color: #471B1F;
+  border: 3px solid #F40C20;
+}
+
+#c:hover {
+  background-color: rgba(244, 12, 32, 0.92);
+  cursor: pointer;
+}
+
+#c:active {
+  background-color: #F40C20;
+}
+
+#d {
+  background-color: rgb(84, 59, 14);
+  border: 3px solid rgb(250, 135, 5);
+}
+
+#d:hover {
+  background-color: rgba(250, 135, 5, 0.9);
+  cursor: pointer;
+}
+
+#d:active {
+  background-color: rgb(250, 135, 5);
+}
+
+#e{
+  background-color: rgb(87, 87, 6);
+  border: 3px solid yellow;
+}
+
+#e:hover {
+  background-color: rgba(255, 255, 0, 0.86);
+  cursor: pointer;
+}
+
+#e:active {
+  background-color: yellow;
+}
+
+#f{
+  background-color: rgb(12, 55, 34);
+  border: 3px solid rgb(60, 237, 150);
+}
+
+#f:hover {
+  background-color: rgba(60, 237, 150, 0.9);
+  cursor: pointer;
+}
+
+#f:active {
+  background-color: rgb(60, 237, 150);
+}
+
+#g{
+  background-color: rgb(16, 16, 47);
+  border: 3px solid rgb(21, 96, 211);
+}
+
+#g:hover {
+  background-color: rgba(21, 96, 211, 0.89);
+  cursor: pointer;
+}
+
+#g:active {
+  background-color: rgb(21, 96, 211);
+}
+
+#a{
+  background-color: rgb(40, 7, 40);
+  border: 3px solid rgb(169, 8, 169);
+}
+
+#a:hover {
+  background-color: rgba(169, 8, 169, 0.9);
+  cursor: pointer;
+}
+
+#a:active {
+  background-color: rgb(169, 8, 169);
+}
+
+#b{
+  background-color: rgb(82, 24, 34);
+  border: 3px solid rgb(244, 93, 119);
+}
+
+#b:hover {
+  background-color: rgba(222, 84, 108, 0.94);
+  cursor: pointer;
+}
+
+#b:active {
+  background-color: rgb(244, 93, 119);
+}
