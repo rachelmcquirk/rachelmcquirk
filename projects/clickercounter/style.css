@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  background-color: rgb(228, 238, 250);
+  font-size: 25px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+#button {
+  width: 100px;
+  height: 50px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(244, 100, 127);
+  color: white;
+  border: 3px solid rgba(183, 195, 190, 0.99);
+}
+
+#button:hover{
+  background-color: rgb(84, 173, 247);
+}
+
+#button:active{
+  background-color: rgb(244, 100, 127);
+}
+
+#count {
+  font-size: 85px;
+  color: rgb(244, 100, 127);
+}
+
+a {
+  color: rgb(244, 100, 127);
+}
