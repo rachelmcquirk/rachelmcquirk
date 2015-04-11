@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+#circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+
+#sky {
+  height: 100%;
+  width: 100%;
+}
+
+.sun {
+  background-color: yellow;
+  border: 8px solid orange;
+}
+
+.sun:hover {
+  border: 15px solid orange;
+}
+
+.moon {
+  background-color: rgb(202, 202, 205);
+  border: 8px solid rgb(250, 245, 245);
+}
+
+.moon:hover {
+  border: 15px solid rgb(250, 245, 245);
+}
+
+.night {
+  background-image: url('/images/random/stars.jpg');}
+
+.day {
+  background-image: url('/images/random/cloud.jpg');
+}
+
+#spot1 {
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  position: absolute;
+  top: 28px;
+  left: 55px;
+}
+
+#spot2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 87px;
+  left: 253px;
+}
+
+#spot3 {
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  position: absolute;
+  top: 183px;
+  left: 65px;
+}
+
+.visible {
+  background-color: rgb(250, 245, 245);
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 495px;
+  font-weight: bold;
+}

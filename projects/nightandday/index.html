@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link href='style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>Night and Day</title>
+  </head>
+
+  <body>
+    <div id='circle' class='sun'>
+      <div id='spot1'></div>
+      <div id='spot2'></div>
+      <div id='spot3'></div>
+    </div>
+
+    <div id='sky' class='day'>
+      <p>Click anywhere to change time. Hover over the sun for sounds.</p>
+    </div>
+
+    <audio id='early'>
+      <source src='/sounds/day.mp3' type='audio/mpeg'>
+      <source src='/sounds/day.wav' type='audio/wav'>
+    </audio>
+    <audio id='late'>
+      <source src='/sounds/night.mp3' type='audio/mpeg'>
+      <source src='/sounds/night.wav' type='audio/wav'>
+    </audio>
+
+    <script src='script.js'></script>
+  </body>
+
+</html>
