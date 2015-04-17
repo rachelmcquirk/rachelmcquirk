@@ -20,19 +20,20 @@ var truckInfo = document.getElementById('truck-info');
 var bakeryInfo = document.getElementById('bakery-info');
 var news = document.getElementById('news');
 
-counter.innerHTML = clicks + ' Cupcakes';
 if(!totalClicks || isNaN(totalClicks))
   totalClicks = 0;
 if(!clicks || isNaN(clicks))
   clicks = 0;
 
+counter.innerHTML = clicks + ' Cupcakes';
+
 var userUpgrades = JSON.parse(localStorage.getItem('userUpgrades'));
 if (!userUpgrades) {
   userUpgrades = {
-  grandma: 0,
-  truck: 0,
-  bakery: 0
-};
+    grandma: 0,
+    truck: 0,
+    bakery: 0
+  };
 }
 
 gmaNumb.innerHTML = userUpgrades.grandma;
