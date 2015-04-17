@@ -89,8 +89,8 @@ setInterval(function() {
 function addGmaInfo() {
   gmaInfo.classList.add("info");
   gmaInfo.style.backgroundImage = 'url(/images/cupcake/pattern.png)';
-  gmaInfo.innerHTML = 'Grandma: a cute old lady to help you bake cupcakes. Each produces 1 cupcake per second.' +
-  '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> grandmas producing <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> cupcakes every second.</p>';
+  gmaInfo.innerHTML = 'Grandma: a cute old lady to help you bake cupcakes. Each produces .5 cupcake per second.' +
+  '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> grandmas producing <span style="color:rgb(121, 49, 145)">' + (userUpgrades.grandma * 0.5) + '</span> cupcakes every second.</p>';
 }
 
 var onGma = function() {
@@ -165,7 +165,7 @@ var newsArray = ['You want to bake cupcakes and decorate them, but no one really
 var newsArray1 = ['You learned how to decorate with frosting', 'You\'re making great progress', 'The dog is even starting to like your cupcakes...'];
 var newsArray2 = ['Your neighbors are starting to offer you money for your delicious cupcakes', '"We\'re so proud of you" -grandma', 'News: This just in, Cupcakes are WAY cooler than cookies!'];
 var newsArray3 = ['The whole city is talking about your amazing cupcakes', 'Grandma is experimenting with different flavors', 'Cupcake Wars has requested you to be on their show', '10 missed calls from grandma'];
-var newsArray4 = ['Don\'t push grandma too hard...', 'News: Doctors recommend one serving of upcakes daily', '"Cupcakes helped me lose weight" -Oprah', 'Your new Vanilla-Bacon Swirl flavor is the top selling cupcake!'];
+var newsArray4 = ['Don\'t push grandma too hard...', 'News: Doctors recommend one serving of cupcakes daily', '"Cupcakes helped me lose weight" -Oprah', 'Your new Vanilla-Bacon Swirl flavor is the top selling cupcake!'];
 
 
 var i = 0;
