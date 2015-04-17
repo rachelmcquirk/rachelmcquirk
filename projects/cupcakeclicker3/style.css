@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#cupcake-container {
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(209, 247, 234);
+}
+
+#cupcake {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 240px;
+}
+
+#cupcake:hover {
+  height: 255px;
+  cursor: pointer;
+}
+
+#cupcake:active {
+  height: 240px;
+}
+
+#counter {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 20px;
+}
+
+#shop-container {
+  float: right;
+  width: 400px;
+  height: 100%;
+  background-color: rgb(231, 212, 224)
+}
+
+.item {
+  height: 74px;
+  margin-bottom: 5px;
+  width: 344px;
+  background-color: rgb(102, 44, 108);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px solid rgb(177, 106, 184);
+}
+
+.item:hover {
+  background-color: rgb(242, 142, 226);
+  border: 6px solid rgb(211, 58, 192);
+}
+
+.item:hover .c {
+  color: black;
+}
+
+.item:active {
+  background-color: rgb(102, 44, 108);
+  border: 6px solid rgb(177, 106, 184);
+}
+
+.icon {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin: 0px;
+  color: white;
+  margin-left: 15px;
+}
+
+.cost {
+  width: 240px;
+  margin-left: auto;
+  height: inherit;
+}
+
+.c {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(210, 210, 211);
+  margin-left: 15px;
+}
+
+.c img {
+  vertical-align: bottom;
+}
+
+.number {
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(210, 210, 211);
+}
+
+.item:hover .number{
+  color: black;
+}
+
+#info-container {
+  height: 100%;
+  width: 549px;
+  position: absolute;
+  left: 400px;
+  border-left: 12px solid white;
+  border-right: 12px solid white;
+  background-color: rgb(249, 212, 212);
+}
+
+.info {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  height: 148px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+#news {
+  height: 100px;
+  font-size: 22px;
+  text-align: center;
+  border: none;
+  padding-top: 50px;
+}
+
+.stat {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}

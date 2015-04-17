@@ -62,7 +62,7 @@ var buttonClick = function() {
     '<img src="/images/quiz/beach2.jpg" id="img"><br>';
   }
   else if (mostCommonAnswer === 'culture') {
-    results.innerHTML = '<h2>You got: Culture Rich Trip!</h1>' + '<p style="font-size: 20px; color:gray">You desire to learn about different cultures, their history, and their people. So go get a Rick Steve\'s travel guide and start planning for that trip that you\'ve been dreaming of!</p>' +
+    results.innerHTML = '<h2>You got: Culture-Rich Trip!</h1>' + '<p style="font-size: 20px; color:gray">You desire to learn about different cultures, their history, and their people. So go get a Rick Steve\'s travel guide and start planning for that trip that you\'ve been dreaming of!</p>' +
     '<img src="/images/quiz/traveler.jpg" id="img"><br>';
   }
   else if (mostCommonAnswer === 'backpacking') {
