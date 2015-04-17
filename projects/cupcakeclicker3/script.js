@@ -89,7 +89,7 @@ function addGmaInfo() {
   gmaInfo.classList.add("info");
   //gmaInfo.style.backgroundImage = 'url(/images/cupcake/cupcake1.png)';
   gmaInfo.innerHTML = 'Grandma: a cute old lady to help you bake cupcakes. Each produces 1 cupcake per second.' +
-  '<p class="stat">You have <span style="color:rgb(127, 125, 137)">' + userUpgrades.grandma + '</span> grandmas producing <span style="color:rgb(127, 125, 137)">' + userUpgrades.grandma + '</span> cupcakes every second.</p>';
+  '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> grandmas producing <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> cupcakes every second.</p>';
 }
 
 var onGma = function() {
@@ -139,7 +139,7 @@ function addBakeryInfo() {
   bakeryInfo.classList.add("info");
   //bakeryInfo.style.backgroundImage = 'url(/images/cupcake/cupcake1.png)';
   bakeryInfo.innerHTML = 'Bakery: Baking larger quantities of cupcakes, putting all of the grandmas to shame. Each produces 10 cupcakes per second.' +
-  '<p class="stat">You have <span style="color:rgb(127, 125, 137)">' + userUpgrades.bakery + '</span> bakeries producing <span style="color:rgb(127, 125, 137)">' + (userUpgrades.bakery * 10) + '</span> cupcakes every second.</p>';
+  '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.bakery + '</span> bakeries producing <span style="color:rgb(121, 49, 145)">' + (userUpgrades.bakery * 10) + '</span> cupcakes every second.</p>';
 }
 
 var onBakery = function() {
