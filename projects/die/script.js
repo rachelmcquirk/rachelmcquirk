@@ -6,10 +6,13 @@ var four = document.getElementById('four');
 var five = document.getElementById('five');
 var six = document.getElementById('six');
 var seven = document.getElementById('seven');
+var sound = document.getElementById('sound');
 
 var numberArray = [1, 2, 3, 4, 5, 6];
 
 var onClick = function() {
+  sound.currentTime = 0;
+  sound.play();
   var randomNumber = numberArray[Math.floor(Math.random() * numberArray.length)];
   if (randomNumber === 1) {
     one.classList.remove('visible');
