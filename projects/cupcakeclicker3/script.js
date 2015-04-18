@@ -95,7 +95,7 @@ function addGmaInfo() {
 }
 
 var onGma = function() {
- if (clicks > shop.grandma.cost) {
+ if (clicks >= shop.grandma.cost) {
    updateClickCount(- shop.grandma.cost);
    userUpgrades.grandma += 1;
    shop.grandma.cost = Math.round(shop.grandma.cost * 1.2);
@@ -121,7 +121,7 @@ function addTruckInfo() {
 }
 
 var onTruck = function() {
-  if (clicks > shop.truck.cost) {
+  if (clicks >= shop.truck.cost) {
     updateClickCount(- shop.truck.cost);
     userUpgrades.truck += 1;
     shop.truck.cost = Math.round(shop.truck.cost * 1.25);
@@ -147,7 +147,7 @@ function addBakeryInfo() {
 }
 
 var onBakery = function() {
-  if (clicks > shop.bakery.cost) {
+  if (clicks >= shop.bakery.cost) {
     updateClickCount(- shop.bakery.cost);
     userUpgrades.bakery += 1;
     shop.bakery.cost = Math.round(shop.bakery.cost * 1.3);
