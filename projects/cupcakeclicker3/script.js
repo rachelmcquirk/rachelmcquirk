@@ -89,6 +89,7 @@ setInterval(function() {
 function addGmaInfo() {
   gmaInfo.classList.add("info");
   gmaInfo.style.backgroundImage = 'url(/images/cupcake/pattern.png)';
+  gmaInfo.style.backgroundColor = 'rgba(255, 255, 255, 0.7)';
   gmaInfo.innerHTML = 'Grandma: a cute old lady to help you bake cupcakes. Each produces .5 cupcake per second.' +
   '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.grandma + '</span> grandmas producing <span style="color:rgb(121, 49, 145)">' + (userUpgrades.grandma * 0.5) + '</span> cupcakes every second.</p>';
 }
@@ -114,6 +115,7 @@ setInterval(function() {
 function addTruckInfo() {
   truckInfo.classList.add("info");
   truckInfo.style.backgroundImage = 'url(/images/cupcake/dots.png)';
+  truckInfo.style.backgroundColor = 'white';
   truckInfo.innerHTML = 'Truck: An awesome cupcake truck for all the kids to buy your cupcakes from. Each produces 4 cupcakes per second.' +
   '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.truck + '</span> trucks producing <span style="color:rgb(121, 49, 145)">' + (userUpgrades.truck * 4) + '</span> cupcakes every second.</p>';
 }
@@ -139,6 +141,7 @@ setInterval(function() {
 function addBakeryInfo() {
   bakeryInfo.classList.add("info");
   bakeryInfo.style.backgroundImage = 'url(/images/cupcake/pattern.png)';
+  bakeryInfo.style.backgroundColor = 'rgba(255, 255, 255, 0.7)';
   bakeryInfo.innerHTML = 'Bakery: Baking larger quantities of cupcakes, putting all of the grandmas to shame. Each produces 10 cupcakes per second.' +
   '<p class="stat">You have <span style="color:rgb(121, 49, 145)">' + userUpgrades.bakery + '</span> bakeries producing <span style="color:rgb(121, 49, 145)">' + (userUpgrades.bakery * 10) + '</span> cupcakes every second.</p>';
 }
