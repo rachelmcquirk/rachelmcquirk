@@ -1,29 +1,27 @@
 body {
-  font-size: 20px;
-  font-family: 'Bree Serif', serif;
-  color: #24476B;
-}
+  background-color: rgba(219, 217, 217, 0.08);
+  text-align: center;
+  font-family: 'Roboto Slab', serif;}
 
 h1 {
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-  color: white;
+  margin: 55px;
+  font-size: 70px;
+  color: rgb(66, 62, 62);
+  border-bottom: 4px dashed rgba(11, 247, 59, 0.33);
+  border-top: 4px dashed rgba(11, 247, 59, 0.33);
+  width: 800px;
+  padding: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 75px;
 }
 
-#title {
-  border-radius: 180px;
-  background-color: #FF9999;
-  width: 300px;
-  padding: 15px;
+.row {
   margin-left: auto;
   margin-right: auto;
+  width: 1300px;
 }
 
-ol{
-  margin-left: 100px;
-}
-
-a{
-  text-decoration: none;
-  color: #24476B;
+.col-md-4 {
+  margin-bottom: 35px;
 }
