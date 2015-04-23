@@ -24,15 +24,15 @@ h1 {
 }
 
 button {
-    margin: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    border: 2px solid rgb(213, 110, 86);
-    padding: 5px 16px;
-    background-color: rgb(252, 139, 124);
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive;
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border: 2px solid rgb(213, 110, 86);
+  padding: 5px 16px;
+  background-color: rgb(252, 139, 124);
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
 #container {
@@ -40,7 +40,7 @@ button {
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;         
+  display: flex;
 }
 
 img {

@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/flexbox',
+    screenshot: '/images/projects/flexbox.png',
+    name: 'Learning Flexbox',
+    description: 'This project was all about me learning how to position with flexbox.'
+  },
+  {
     link: '/projects',
     screenshot: '/images/projects/projects.png',
     name: 'New Projects Page',

@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: rgb(98, 215, 144);
+  font-family: 'Patua One', cursive;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  border: 2px solid black;
+  margin: 5px auto;
+}
+
+.box {
+  flex: 1;
+}
+
+.box1 {
+  background-color: rgb(57, 160, 184);
+}
+
+.box2 {
+  background-color: rgb(237, 47, 80);
+}
+
+.box3 {
+  background-color: rgb(80, 213, 96);
+}
+
+.middle {
+  width: 200px;
+  height: 50px;
+}
+
+.container2 {
+  flex-direction: column;
+  background-color: rgb(117, 199, 190);
+}
+
+.top {
+  background-color: rgb(101, 10, 103);
+  align-self: flex-start;
+  margin: 0 auto;
+}
+
+.bottom {
+  background-color: black;
+  align-self: flex-end;
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+.container3 {
+  align-items: center;
+  background-color: rgb(57, 6, 87);
+}
+
+#center {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(226, 110, 130);
+  margin: 0 auto;
+}
+
+.container4 {
+  align-items: center;
+  background-color: rgb(119, 119, 178);
+}
+
+.far {
+  width: 50px;
+  height: 200px;
+}
+
+.left {
+  background-color: black;
+}
+
+.right {
+  background-color: black;
+  margin-left: auto;
+}
+
+.a {
+  width: 100px;
+  height: 100px;
+}
+
+.container5 {
+  background-color: rgb(84, 210, 84);
+}
+
+.up {
+  background-color: rgb(255, 145, 0);;
+}
+
+.down {
+  background-color: rgb(240, 27, 100);
+  align-self: flex-end;
+  margin-left: auto;
+}
