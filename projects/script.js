@@ -1,7 +1,7 @@
 var projects = [
   {
     link: '/projects/memory',
-    screenshot: '/images/projects/flexbox.png',
+    screenshot: '/images/projects/memory.png',
     name: 'Memory Game',
     description: 'Test your memory with cute pictures of dogs!'
   },
