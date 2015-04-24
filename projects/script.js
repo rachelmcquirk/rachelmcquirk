@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/memory',
+    screenshot: '/images/projects/flexbox.png',
+    name: 'Memory Game',
+    description: 'Test your memory with cute pictures of dogs!'
+  },
+  {
     link: '/projects/flexbox',
     screenshot: '/images/projects/flexbox.png',
     name: 'Learning Flexbox',
