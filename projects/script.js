@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/guessthenumber',
+    screenshot: '/images/projects/guessthenumber.png',
+    name: 'Guess the number',
+    description: 'Tyrese the T-rex will pick a random number, your goal is to guess it correctly within 5 turns as Tyrese gives you clues.'
+  },
+  {
     link: '/projects/memory',
     screenshot: '/images/projects/memory.png',
     name: 'Memory Game',

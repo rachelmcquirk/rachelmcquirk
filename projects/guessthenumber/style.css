@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  background-color: rgb(242, 189, 126);
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+#feedback {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  height: 475px;
+  width: 755px;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: 67px;
+}
+
+img {
+  margin-top: auto;
+}
+
+#speechbubble {
+  background-image: url('/images/random/speech.png');
+  width: 300px;
+  height: 220px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+#center {
+  width: 285px;
+  margin-top: 70px;
+}
+
+#hint {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#turns {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#guess {
+  width: 70px;
+  height: 27px;
+}
+
+#guess:focus {
+  outline: none;
+}
+
+button {
+  width: 91px;
+  height: 40px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(31, 194, 113);
+  color: white;
+  border: 3px solid rgba(43, 152, 107, 0.99);
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(97, 216, 135);
+}
+
+button:active {
+  background-color: rgb(31, 194, 113);
+}
