@@ -12,7 +12,6 @@ var compliment = ['Rexalent! That\'s right! I must say, you are looking very bea
 'Rex-a-licious, you got it! You have beautiful, long arms. I bet you can do a lot with those, I\'m envious.',
 'Rex-a-licious, you got it! Are you an angel? Because I\'m a dinosaur.',
 'Rexalent, that\'s right! By the way, you are such a wonderful person!',
-'Rexalent, that\'s right! Yo\'re beautiful. You should come home with me, because I\'ll make you dino-sore.',
 'Rex-a-licious, you got it! You\'re so smart, I wish my brain had the chance to evolve like yours.',
 'Rex-a-licious, you got it! If I can\'t have you, I\'ll be a Tyrannosaurus Wreck.',
 'Rexalent, that\'s right! One look at you and I feel like I\'ve died and gone to a museum.'
