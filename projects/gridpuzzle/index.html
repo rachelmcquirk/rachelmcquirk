@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link href='style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Allura|Roboto+Slab' rel='stylesheet' type='text/css'>
+    <title>Grid Puzzle</title>
+  </head>
+
+  <body>
+    <h1>Grid Puzzle</h1>
+    <div id='container'>
+      <div id='wrapper'>
+        <div id='directions'>
+          <h3>The Puzzle</h3>
+          <ol>
+            <li>There are 5 houses in five different colors.</li>
+            <li>In each house lives a person with a different name.</li>
+            <li>These five owners have a favorite fruit, favorite physical activity and have a certain dog breed (except for one, who has a cat).</li>
+            <li>No owners have the same dog breed, or the same favorite physical activity or the same favorite fruit.</li>
+          </ol>
+          <h4>To win you must correctly fill in the grid and answer the following question.</h4>
+        </div>
+        <div id='hints'>
+          <h3>Hints:</h3>
+          <ul>
+            <li>Anne lives in the pink house</li>
+            <li>Sally has a Samoyed</li>
+            <li>Jordan loves mangos</li>
+            <li>the orange house is on the left of the red house</li>
+            <li>the orange house's owner loves strawberries</li>
+            <li>the person who goes hiking has a sheltie</li>
+            <li>the owner of the green house does yoga</li>
+            <li>the person living in the center house favorites pineapples</li>
+            <li>Hansel lives in the first house</li>
+            <li>the person who weight lifts lives next to the one who has a husky</li>
+            <li>the person who has a cat (rather than an awesome dog) lives next to the person who does yoga</li>
+            <li>the owner who snowboards loves coconuts</li>
+            <li>Bradley plays tennis</li>
+            <li>Hansel lives next to the blue house</li>
+            <li>the person who weight lifts has a neighbor who loves apples</li>
+          </ul>
+        </div>
+      </div>
+      <div id='grid'>
+        <table id='table'>
+          <tr>
+            <th>House 1</th>
+            <th>House 2</th>
+            <th>House 3</th>
+            <th>House 4</th>
+            <th>House 5</th>
+          </tr>
+        </table>
+        <br>
+        <label>Who owns the Australian Shepherd?</label>
+        <input id='guess' type='text'>
+        <button>Enter</button>
+      </div>
+    </div>
+    <script src='script.js'></script>
+  </body>
+</html>

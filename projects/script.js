@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/gridpuzzle',
+    screenshot: '/images/projects/animations.png',
+    name: 'CSS Animations',
+    description: 'Check out the CSS Animations! I added my favorite TV shows for some interesting content for those uninterested in CSS animations.'
+  },
+  {
     link: '/projects/animations',
     screenshot: '/images/projects/animations.png',
     name: 'CSS Animations',
