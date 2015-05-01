@@ -17,27 +17,28 @@
             <li>These five owners have a favorite fruit, favorite physical activity and have a certain dog breed (except for one, who has a cat).</li>
             <li>No owners have the same dog breed, or the same favorite physical activity or the same favorite fruit.</li>
           </ol>
-          <h4>To win you must correctly fill in the grid and answer the following question.</h4>
+          <h5>To win you must fill in the grid and answer the following question correctly.</h5>
         </div>
         <div id='hints'>
           <h3>Hints:</h3>
           <ul>
-            <li>Anne lives in the pink house</li>
-            <li>Sally has a Samoyed</li>
-            <li>Jordan loves mangos</li>
-            <li>the orange house is on the left of the red house</li>
-            <li>the orange house's owner loves strawberries</li>
-            <li>the person who goes hiking has a sheltie</li>
-            <li>the owner of the green house does yoga</li>
-            <li>the person living in the center house favorites pineapples</li>
-            <li>Hansel lives in the first house</li>
-            <li>the person who weight lifts lives next to the one who has a husky</li>
-            <li>the person who has a cat (rather than an awesome dog) lives next to the person who does yoga</li>
-            <li>the owner who snowboards loves coconuts</li>
-            <li>Bradley plays tennis</li>
-            <li>Hansel lives next to the blue house</li>
-            <li>the person who weight lifts has a neighbor who loves apples</li>
+            <li class='strike'>Anne lives in the pink house</li>
+            <li class='strike'>Sally has a Samoyed</li>
+            <li class='strike'>Jordan loves mangos</li>
+            <li class='strike'>the orange house is on the left of the red house</li>
+            <li class='strike'>the orange house's owner loves strawberries</li>
+            <li class='strike'>the person who goes hiking has a sheltie</li>
+            <li class='strike'>the owner of the green house does yoga</li>
+            <li class='strike'>the person living in the center house loves pineapples</li>
+            <li class='strike'>Hansel lives in the first house</li>
+            <li class='strike'>the person who weight lifts lives next to the one who has a husky</li>
+            <li class='strike'>the person who has a cat (rather than an awesome dog) lives next to the person who does yoga</li>
+            <li class='strike'>the owner who snowboards loves coconuts</li>
+            <li class='strike'>Bradley plays tennis</li>
+            <li class='strike'>Hansel lives next to the blue house</li>
+            <li class='strike'>the person who weight lifts has a neighbor who loves apples</li>
           </ul>
+          <h5>You can mark through the hints by clicking on them to keep track of useful information</h5>
         </div>
       </div>
       <div id='grid'>
@@ -54,6 +55,7 @@
         <label>Who owns the Australian Shepherd?</label>
         <input id='guess' type='text'>
         <button>Enter</button>
+        <div id='response'></div>
       </div>
     </div>
     <script src='script.js'></script>

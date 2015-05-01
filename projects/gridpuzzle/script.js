@@ -69,7 +69,7 @@ var choices = {
   ],
   activity: [
     {
-      value: 'hiking',
+      value: 'Hiking',
       image: '/images/grid/hiking.jpg'
     },
     {
@@ -107,7 +107,7 @@ var choices = {
       image: '/images/grid/sheltie.jpg'
     },
     {
-      value: 'Australian Shep.',
+      value: 'Aust. Shepherd',
       image: '/images/grid/shep.jpg'
     },
   ]
@@ -200,7 +200,7 @@ var items = [
     {
       name: 'Fruit',
       options: choices.fruit,
-      correctAnswer: 'Strawberries',
+      correctAnswer: 'Strawberry',
       isCorrect: ''
     },
     {
@@ -244,31 +244,31 @@ var items = [
   ],
   [
     {
-      name: 'Dog Breed',
+      name: 'Pet',
       options: choices.breed,
       correctAnswer: 'Husky',
       isCorrect: ''
     },
     {
-      name: 'Dog Breed',
+      name: 'Pet',
       options: choices.breed,
       correctAnswer: 'Cat',
       isCorrect: ''
     },
     {
-      name: 'Dog Breed',
+      name: 'Pet',
       options: choices.breed,
       correctAnswer: 'Sheltie',
       isCorrect: ''
     },
     {
-      name: 'Dog Breed',
+      name: 'Pet',
       options: choices.breed,
-      correctAnswer: 'Australian Shep.',
+      correctAnswer: 'Aust. Shepherd',
       isCorrect: ''
     },
     {
-      name: 'Dog Breed',
+      name: 'Pet',
       options: choices.breed,
       correctAnswer: 'Samoyed',
       isCorrect: ''
@@ -279,8 +279,14 @@ var items = [
 
 
 
-var dropClick = function(image, nameDiv) {
+var dropClick = function(image, nameDiv, correctAnswer, itemValue, i, j, z) {
   nameDiv.innerHTML = '<img src="' + image + '">';
+  if (itemValue === correctAnswer) {
+    items[i][j].isCorrect = true;
+  }
+  else {
+    items[i][j].isCorrect = false;
+  }
 };
 
 
@@ -311,11 +317,11 @@ for(var i = 0; i < items.length; i++) {
       dropdownDiv.appendChild(div);
       // self-executing anonymous function
       //this makes it so the values that is selected isn't always the last one in the loop
-      (function(image, nameDiv) {
+      (function(image, nameDiv, correctAnswer, itemValue, i, j, z) {
         div.addEventListener('click', function(e) {
-          dropClick(image, nameDiv);
+          dropClick(image, nameDiv, correctAnswer, itemValue, i, j, z);
         });
-      })(item.options[z].image, nameDiv);
+      })(item.options[z].image, nameDiv, item.correctAnswer, item.options[z].value, i, j, z);
     }
     innerDiv.appendChild(dropdownDiv);
     innerDiv.appendChild(nameDiv);
@@ -324,4 +330,51 @@ for(var i = 0; i < items.length; i++) {
   }
 
   table.appendChild(tr);
+}
+
+var guess = document.getElementById('guess');
+var button = document.querySelector('button');
+var response = document.getElementById('response');
+var count = 0;
+
+
+//response upon completeing the grid and answering the question correctly
+var onEnter = function() {
+  for (var k = 0; k < items.length; k++) {
+    var cells = items[k];
+    for(var j = 0; j < cells.length; j++) {
+      var item = cells[j];
+      if (item.isCorrect === true) {
+        count += 1;
+      }
+    }
+  }
+  var answer = guess.value.toUpperCase();
+  if (count === 25 && answer === 'BRADLEY') {
+    response.innerHTML = 'Correct! Congrats, you\'ve got some mad problem solving skills!';
+  }
+  else {
+    response.innerHTML = 'That\'s not quite right, make sure you have filled in the grid  and answered the question correctly.';
+  }
+  count = 0;
+};
+
+button.addEventListener('click', onEnter);
+
+//striking through the hints
+var strike = document.querySelectorAll('.strike');
+
+var strikeThrough = function() {
+  if (this.style.textDecoration === 'line-through') {
+    this.style.textDecoration = 'none';
+    this.style.color = 'black';
+  }
+  else {
+    this.style.textDecoration = 'line-through';
+    this.style.color = 'red';
+  }
+};
+
+for (var i = 0; i < strike.length; i++) {
+    strike[i].addEventListener('click', strikeThrough, false);
 }

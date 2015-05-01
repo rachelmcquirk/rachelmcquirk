@@ -1,7 +1,8 @@
 body {
   margin: 0 50;
   font-family: 'Roboto Slab', serif;
-  background-color: rgb(224, 219, 223);
+  background-color: rgb(242, 250, 250);
+  font-size: 16px;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 }
 
 #wrapper {
-  width: 410px;
+  width: 430px;
 }
 
 #grid {
@@ -29,15 +30,16 @@ h1 {
 }
 
 td {
-  width: 115px;
-  height: 115px;
+  width: 110px;
+  height: 110px;
   text-align: center;
+  background-color: rgb(171, 244, 180);
 }
 
 .innerDiv {
   border: 3px solid black;
-  width: 115px;
-  height: 115px;
+  width: 110px;
+  height: 110px;
   position: relative;
   top: 0;
   left: 0;
@@ -45,6 +47,7 @@ td {
 
 .innerDiv:hover .dropdown {
   display: block;
+  background-color: rgb(242, 250, 250);
 }
 
 .dropdown {
@@ -59,17 +62,28 @@ td {
 }
 
 .itemBorder:hover {
-  background-color: gray;
-  padding: 5px;
-  color: white;
+  background-color: rgb(252, 174, 70);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  cursor: pointer;
 }
 
 .itemBorder:active {
-  background-color: black;
-  padding: 5px;
+  background-color: rgb(113, 197, 118);
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: white;
 }
 
 img {
-  width: 115px;
+  width: 110px;
+}
+
+.strike:hover {
+  cursor: pointer;
+}
+
+h5 {
+  font-style: italic;
 }
