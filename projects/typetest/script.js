@@ -39,9 +39,12 @@ var passageArray = [
 ];
 
 var seconds = 60;
+var randomArray = null;
 
 var onClick = function() {
   var randomPassage = passageArray[Math.floor(Math.random() * passageArray.length)];
+  passageArray = randomPassage.split(' ');
+
   var container = document.getElementById('container');
   document.body.removeChild(container);
   document.body.style.backgroundColor = 'white';
@@ -62,14 +65,13 @@ var onClick = function() {
   var textArea = document.createElement('textarea');
   textArea.id = 'text';
   wrapperDiv.appendChild(textArea);
-  textArea.addEventListener('keypress', onType);
+  textArea.addEventListener('keyup', onType);
 };
 
 button.addEventListener('click', onClick);
 
 var seconds = 60;
 var time = null;
-var text = document.getElementById('text');
 
 function minusSecond () {
   if (seconds > 0) {
@@ -87,6 +89,8 @@ function minusSecond () {
     document.body.style.display = 'flex';
     var container = document.createElement('div');
     container.id = 'container';
+    container.style.height = '200px';
+    container.style.width = '430px';
     document.body.appendChild(container);
     var result = document.createElement('h3');
     container.appendChild(result);
@@ -95,19 +99,26 @@ function minusSecond () {
     var again = document.createElement('h6');
     container.appendChild(again);
     result.innerHTML = 'Result:';
-    wpm.innerHTML = 'You got words per minute!';
+    wpm.innerHTML = 'You got ' + correctWords + ' words per minute!';
     h3.innerHTML = '<a href="http://rachelmcquirk.come/projects/typetest">Try Again?</a>';
   }
 }
 
-
-var isPaused = false;
+var correctWords = null;
 
 var onType = function() {
-  if (isPaused) {
-    return;
+  var words = this.value;
+  if (!time)
+    time = setInterval(minusSecond, 1000);
+  var wordsArray = words.split(' ');
+  correctWords = 0;
+  for (var i = 0; i < wordsArray.length; i++) {
+    if (wordsArray[i] === passageArray[i])
+      correctWords += 1;
+      console.log(wordsArray[i]);
   }
-  minusSecond();
-  time = setInterval(minusSecond, 1000);
-  isPaused = true;
 };
+
+// var results = function() {
+//   for(var i = 0; i < words.length; )
+// };

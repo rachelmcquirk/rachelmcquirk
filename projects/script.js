@@ -1,9 +1,9 @@
 var projects = [
   {
     link: '/projects/typetest',
-    screenshot: '/images/projects/gridpuzzle.png',
+    screenshot: '/images/projects/typingtest.png',
     name: 'Typing Test',
-    description: 'How many words per minute do you average?'
+    description: 'How many words can you type in 1 minute?'
   },
   {
     link: '/projects/gridpuzzle',
