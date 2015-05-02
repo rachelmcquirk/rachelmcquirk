@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/typetest',
+    screenshot: '/images/projects/gridpuzzle.png',
+    name: 'Typing Test',
+    description: 'How many words per minute do you average?'
+  },
+  {
     link: '/projects/gridpuzzle',
     screenshot: '/images/projects/gridpuzzle.png',
     name: 'Grid Puzzle',

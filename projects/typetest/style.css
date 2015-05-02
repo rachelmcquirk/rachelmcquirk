@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(179, 210, 181);
+  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  height: 350px;
+  width: 550px;
+  border-radius: 15px;
+  background-color: white;
+  align-self: center;
+  margin: 0 auto;
+  color: rgb(26, 26, 29);
+  font-size: 20px;
+}
+
+p {
+  padding: 0 70px;
+}
+
+button {
+  background-color: rgb(141, 208, 172);
+  padding: 12px 16px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: rgb(116, 197, 153);
+}
+
+button:active {
+  background-color: rgb(96, 178, 133);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.timer {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(179, 210, 181);
+  border: 2px solid black;
+  font-size: 35px;
+  margin: 20px auto;
+}
+
+.passage {
+  height: 400px;
+  width: 600px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+#text {
+  height: 200px;
+  width: 600px;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
