@@ -8,7 +8,7 @@ body {
 }
 
 #bluebonnet {
-  background-image: url('/images/bluebonnet1.jpg');
+  background-image: url('images/bluebonnet1.jpg');
   height: 550px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -25,7 +25,7 @@ body {
 
 /*For dining in the dark page*/
 #city {
-  background-image: url('/images/city.jpg');
+  background-image: url('images/city.jpg');
   height: 550px;
   background-repeat: no-repeat;
   background-attachment: fixed;
