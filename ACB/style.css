@@ -1,0 +1,108 @@
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  margin: 0;
+}
+
+#bluebonnet {
+  background-image: url('/images/bluebonnet1.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.underlined-heading {
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*For dining in the dark page*/
+#city {
+  background-image: url('/images/city.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#city h2 {
+  font-size: 65px;
+  color: white;
+}
+
+#city p {
+  font-size: 26px;
+  color: white;
+}
+
+.description {
+  padding: 40px;
+  background-color: #eee;
+}
+
+.col-md-6 .logo {
+  padding: 20px;
+}
+
+.info {
+  padding: 40px;
+}
+
+#date {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 40px;
+}
+
+hr {
+  border-top: 1px solid #B2AEAE;
+}
+
+.footer {
+  background-color: #282828;
+  text-align: center;
+  border-top: 1px solid #dbdbdb;
+  padding: 45px;
+  color: white;
+}
+
+button {
+  border: 2px solid rgb(199, 1, 1);
+  background: #FF1D2E;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #EC1324;
+}
+
+button:active {
+  background-color: #D21524;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p > a > img {
+  margin-right: 10px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  color: #B1C0D3;
+  font-weight: bold;
+}

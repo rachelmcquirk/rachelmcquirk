@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "ftp.acbaustin.org",
+    "username": "admin@acbaustin.org",
+    "password": "Acbaus1",
+    "port": 21,
+    "remotePath": "/",
+    "uploadOnSave": false
+}
