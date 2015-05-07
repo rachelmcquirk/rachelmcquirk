@@ -26,7 +26,7 @@ body {
 /*For dining in the dark page*/
 #city {
   background-image: url('images/city.jpg');
-  height: 550px;
+  height: 450px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -58,7 +58,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  padding: 40px;
+  padding-bottom: 20px;
 }
 
 hr {
