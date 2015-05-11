@@ -9,10 +9,11 @@ body {
 
 #bluebonnet {
   background-image: url('images/bluebonnet1.jpg');
-  height: 550px;
+  height: 450px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: rgb(83, 15, 147);
 }
 
 .underlined-heading {
@@ -22,6 +23,26 @@ body {
   margin-right: auto;
 }
 
+.mission {
+  padding-bottom: 40px;
+}
+
+.board-members {
+  background-color: #eee;
+  padding: 40px;
+}
+
+.donors {
+  padding: 40px;
+}
+
+ul {
+  text-align: left;
+}
+
+.mission p {
+  text-align: left;
+}
 
 /*For dining in the dark page*/
 #city {
@@ -94,6 +115,7 @@ button:active {
 a {
   color: white;
   text-decoration: none;
+  outline: none;
 }
 
 p > a > img {
@@ -104,4 +126,20 @@ p > a > img {
   font-size: 18px;
   color: #B1C0D3;
   font-weight: bold;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+button a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+button a:focus {
+  text-decoration: none;
+  color: white;
+  outline: none;
 }

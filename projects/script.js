@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/tictactoe',
+    screenshot: '/images/projects/typingtest.png',
+    name: 'Tic-Tac-Toe',
+    description: 'Challenge a friend to a game of tic-tac-toe!'
+  },
+  {
     link: '/projects/typetest',
     screenshot: '/images/projects/typingtest.png',
     name: 'Typing Test',

@@ -1,0 +1,25 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+# 
+# Changes to be committed:
+# 	modified:   ACB/dining.html
+# 	modified:   ACB/images/ALH.png
+# 	modified:   ACB/images/acblogo.jpg
+# 	modified:   ACB/images/bbva.png
+# 	deleted:    ACB/images/bluebonnet2.jpg
+# 	modified:   ACB/newhome.html
+# 	modified:   ACB/style.css
+# 	new file:   COMMIT_EDITMSG
+# 	new file:   images/random/o.png
+# 	new file:   images/random/x.png
+# 	modified:   projects/script.js
+# 	new file:   projects/tictactoe/index.html
+# 	new file:   projects/tictactoe/script.js
+# 	new file:   projects/tictactoe/style.css
+# 
+# Changes not staged for commit:
+# 	modified:   COMMIT_EDITMSG
