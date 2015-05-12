@@ -16,6 +16,12 @@ body {
   color: rgb(64, 11, 115);
 }
 
+.alert {
+  margin: 0;
+  text-align: right;
+  font-size: 19px;
+}
+
 .underlined-heading {
   text-align: center;
   width: 800px;
