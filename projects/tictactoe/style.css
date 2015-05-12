@@ -1,17 +1,46 @@
-h1 {
+body {
+  font-family: sans-serif;
   text-align: center;
 }
 
+h1 {
+  padding-top: 20px;
+}
+
+h4 {
+  padding-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+button {
+  width: 115px;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgb(244, 100, 127);
+  color: white;
+  border: 3px solid rgba(183, 195, 190, 0.99);
+  margin: 30px
+}
+
+button:hover{
+  background-color: rgb(84, 173, 247);
+}
+
+button:active{
+  background-color: rgb(244, 100, 127);
+}
+
 .box {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   display: inline-block;
   cursor: pointer;
 }
 
 #container {
   margin: 0 auto;
-  width: 474px;
+  width: 376px;
   display: flex;
   flex-wrap: wrap;
 }

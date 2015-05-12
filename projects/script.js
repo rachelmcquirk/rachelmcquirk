@@ -1,7 +1,7 @@
 var projects = [
   {
     link: '/projects/tictactoe',
-    screenshot: '/images/projects/typingtest.png',
+    screenshot: '/images/projects/tictactoe.png',
     name: 'Tic-Tac-Toe',
     description: 'Challenge a friend to a game of tic-tac-toe!'
   },

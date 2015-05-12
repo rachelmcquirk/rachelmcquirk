@@ -13,7 +13,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: rgb(83, 15, 147);
+  color: rgb(64, 11, 115);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .underlined-heading {
@@ -42,6 +43,10 @@ ul {
 
 .mission p {
   text-align: left;
+}
+
+h3 {
+  color: rgb(64, 11, 115);
 }
 
 /*For dining in the dark page*/
@@ -120,6 +125,10 @@ a {
 
 p > a > img {
   margin-right: 10px;
+}
+
+#date a {
+  color: blue;
 }
 
 .footer h4 {
