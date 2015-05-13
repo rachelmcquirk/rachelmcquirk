@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  background-image: url('/images/horoscope/background.jpg');
+  font-size: 24px;
+  text-align: center;
+}
+
+#wrapper {
+  margin: 0 auto;
+  border: 3px solid black;
+  height: 350px;
+  width: 550px;
+  border-radius: 15px;
+  background-color: rgba(234, 234, 234, 0.61);
+  align-self: center;
+}
+
+#birthDay {
+  display: inline-block;
+}
+
+select {
+  display: inline-block;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
