@@ -1,7 +1,7 @@
 var projects = [
   {
     link: '/projects/horoscope2',
-    screenshot: '/images/projects/horoscope.png',
+    screenshot: '/images/projects/horoscope2.png',
     name: 'Daily Horoscope - part 2',
     description: 'See what your day holds with this daily horoscope!'
   },

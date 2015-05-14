@@ -79,8 +79,8 @@ var onClick = function() {
       horoscope.className = 'horoscope';
       innerWrapper.appendChild(horoscope);
 
-      wrapperDiv.style.height = '550px';
-      wrapperDiv.style.width = '800px';
+      wrapperDiv.style.height = '500px';
+      wrapperDiv.style.width = '700px';
       zodiacSign.innerHTML = '<img src="' + sign[zodiac] + '">';
       horoscope.innerHTML = xmlhttp.responseText;
     }
