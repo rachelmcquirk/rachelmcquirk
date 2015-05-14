@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/horoscope2',
+    screenshot: '/images/projects/horoscope.png',
+    name: 'Daily Horoscope - part 2',
+    description: 'See what your day holds with this daily horoscope!'
+  },
+  {
     link: '/projects/horoscope',
     screenshot: '/images/projects/horoscope.png',
     name: 'Daily Horoscope - part 1',
