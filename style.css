@@ -68,14 +68,20 @@ hr {
 }
 
 #banner h1 {
-  color: black;
-  padding-top: 157px;
-  line-height: 2px;
+  color: white;
   margin: 0;
 }
 
 #banner h3 {
-  color: black;
+  color: white;
+}
+
+#background-div {
+  background-color: rgba(118, 112, 112, 0.34);
+  height: 119px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 97px;
 }
 
 #media {
@@ -110,4 +116,24 @@ hr {
 a {
   text-decoration: none;
   color: black;
+}
+
+/*iframe for blog*/
+iframe {
+  width: 100%;
+  height: 53%;
+  border: none;
+}
+
+#background-div2 {
+  background-color: rgba(118, 112, 112, 0.34);
+  height: 75px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 138px;
+}
+
+#background-div2 h1 {
+  color: white;
+  margin-top: 10px;
 }
