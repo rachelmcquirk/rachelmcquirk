@@ -135,7 +135,7 @@ var projects = [
     link: '/projects/sweet/home.html',
     screenshot: '/images/projects/sweet1.png',
     name: 'Sweet nuTREATion',
-    description: 'If only it were posible... Check out this psuedo site used with Bootstrap!'
+    description: 'If only it were possible... Check out this psuedo site used with Bootstrap!'
   },
   {
     link: '/projects/selfie',
@@ -186,7 +186,7 @@ var projects = [
     description: 'Create a wacky story with this party madlib!'
   },
   {
-    link: 'http://rachelmcquirk.com/',
+    link: '/projects/firsthome',
     screenshot: '/images/projects/home.png',
     name: 'Home Page',
     description: 'My home page and first ever project!'

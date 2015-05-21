@@ -1,56 +1,113 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  height: 100%;
+  color: rgb(103, 103, 103);
+  font-size: 18px;
+}
+
+#container{
+  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  height: inherit;
+}
+
+#picture {
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 8%;
+  left: 4.3%;
+}
+
+#navbar {
+  position: fixed;
+  top: 40%;
+  width: 20%;
+}
+
+#sideDiv {
+  margin: 0, 50px;
+  width: 20%;
+  height: inherit;
+  border-right: 2px solid #eee;
+  font-size: 17px;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+#content {
+  margin: 0, 50px;
+  height: inherit;
+  width: 80%;
+  background-color: rgba(248, 248, 248, 0.74);
+  text-align: center;
+}
+
+#content p {
+  padding-left: 190px;
+  padding-right: 190px;
+  text-align: left;
+}
+
+hr {
+  width: 20%;
+}
+
+#banner {
+  background-image: url('/images/random/background1.jpg');
+  height: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
+
+#banner h1 {
+  color: black;
+  padding-top: 157px;
+  line-height: 2px;
   margin: 0;
 }
 
-
-.cover {
-  background-image: url(/images/typing.jpg);
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
+#banner h3 {
+  color: black;
 }
 
-.cover .myPicture {
-  border: 4px solid #FF6666;
-  position: relative;
-  margin-top: 240px;
-  margin-left: 40px;
+#media {
+  position: fixed;
+  bottom: 3%;
+  left: 4%;
 }
 
-.container {
-  color: #282828;
-  padding: 50px 0px;
+#media div {
+  display: inline-block;
+  margin: 5px;
 }
 
-.color-container {
-  background-color: #D6FFEB;
-  color: #282828;
+#media img {
+  height: 40px;
 }
 
-.info {
-  width: 800px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.tab {
+  padding: 16px;
+  width: inherit;
+  border-bottom: 1px solid #eee;
 }
 
-.findMe {
-  width: 292px;
-  margin-left: auto;
-  margin-right: auto;
+.tab:hover {
+  background-color: #D7F9D9;
 }
-.findMe div {
-  display: inline;
+
+.active {
+  border-right: 4px solid rgb(144, 200, 172);
 }
 
 a {
   text-decoration: none;
-}
-
-.findMe img {
-  width: 60px;
-  height: 60px;
-  margin-right: 5px;
-  margin-left: 5px;
+  color: black;
 }

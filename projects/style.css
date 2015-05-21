@@ -1,25 +1,114 @@
-body {
-  background-color: rgba(219, 217, 217, 0.08);
-  text-align: center;
-  font-family: 'Roboto Slab', serif;}
+/*css for side bar */
 
-h1 {
-  margin: 55px;
-  font-size: 70px;
-  color: rgb(66, 62, 62);
-  border-bottom: 4px dashed rgba(11, 247, 59, 0.33);
-  border-top: 4px dashed rgba(11, 247, 59, 0.33);
-  width: 800px;
-  padding: 70px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 75px;
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  height: 100%;
+  font-size: 18px;
 }
+
+#container{
+  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  height: inherit;
+}
+
+#picture {
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 8%;
+  left: 4.3%;
+}
+
+#navbar {
+  position: fixed;
+  top: 40%;
+  width: 20%;
+}
+
+#sideDiv {
+  margin: 0, 50px;
+  width: 20%;
+  height: inherit;
+  border-right: 2px solid #eee;
+  font-size: 17px;
+}
+
+#banner {
+  background-image: url('/images/random/background3.jpg');
+  height: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+#content {
+  margin: 0, 50px;
+  height: inherit;
+  width: 80%;
+  background-color: rgba(248, 248, 248, 0.74);
+  text-align: center;
+}
+
+#media {
+  position: fixed;
+  bottom: 3%;
+  left: 4%;
+}
+
+#media div {
+  display: inline-block;
+  margin: 5px;
+}
+
+#media img {
+  height: 40px;
+}
+
+.tab {
+  padding: 16px;
+  width: inherit;
+  border-bottom: 1px solid #eee;
+}
+
+.tab:hover {
+  background-color: #D7F9D9;
+}
+
+.active {
+  border-right: 4px solid rgb(144, 200, 172);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*css for content */
 
 .row {
   margin-left: auto;
   margin-right: auto;
-  width: 1300px;
+  width: 100%;
 }
 
 .col-md-4 {
