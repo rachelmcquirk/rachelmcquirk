@@ -23,6 +23,10 @@ body {
   left: 4.3%;
 }
 
+#h3 {
+  margin-top: 45px;
+}
+
 #navbar {
   position: fixed;
   top: 40%;
@@ -64,7 +68,6 @@ hr {
   height: 40%;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 45px;
 }
 
 #banner h1 {
