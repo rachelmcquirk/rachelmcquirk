@@ -1,5 +1,17 @@
 var projects = [
   {
+    link: '/projects/hangman',
+    screenshot: '/images/projects/hangman.png',
+    name: 'Hangman',
+    description: 'Revisit your childhood with a game of Hangman'
+  },
+  {
+    link: '/index.html',
+    screenshot: '/images/projects/newhome.png',
+    name: 'New Homepage!',
+    description: 'My second homepage version!'
+  },
+  {
     link: '/projects/horoscope2',
     screenshot: '/images/projects/horoscope2.png',
     name: 'Daily Horoscope - part 2',
@@ -9,7 +21,7 @@ var projects = [
     link: '/projects/horoscope',
     screenshot: '/images/projects/horoscope.png',
     name: 'Daily Horoscope - part 1',
-    description: 'This is a working horoscope but the one next door is the polished version ;)'
+    description: 'This is a working horoscope but the one next door is not quite as ugly ;)'
   },
   {
     link: '/projects/tictactoe',
