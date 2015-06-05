@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/notepost',
+    screenshot: '/images/projects/notepost.png',
+    name: 'Note Post',
+    description: 'Post a note here and anyone can see the 3 most recent posts!'
+  },
+  {
     link: '/projects/hangman',
     screenshot: '/images/projects/hangman.png',
     name: 'Hangman',

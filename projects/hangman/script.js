@@ -1,5 +1,5 @@
-var wordArray = ['super', 'pancake', 'hangry', 'dolphin', 'anthropology', 'mermaid', 'snowflake', 'candle', 'kitchen', 'piano', 'harmonica', 'dragon', 'coffee', 'beach', 'pineapple', 'computer', 'vacation', 'oxygen', 'zephyr',
-'symphony', 'heirarchy', 'diamond', 'peaceful', 'mountain', 'twinkle', 'spaceship', 'universe', 'elephant', 'circle', 'guitar', 'masquerade', 'thunder', 'evolution'];
+var wordArray = ['super', 'pancake', 'telescope', 'hangry', 'dolphin', 'anthropology', 'mermaid', 'snowflake', 'candle', 'kitchen', 'piano', 'harmonica', 'dragon', 'coffee', 'beach', 'pineapple', 'computer', 'vacation', 'oxygen', 'zephyr',
+'symphony', 'heirarchy', 'diamond', 'peaceful', 'aviation', 'australopithecine', 'mountain', 'twinkle', 'spaceship', 'universe', 'elephant', 'circle', 'guitar', 'masquerade', 'thunder', 'evolution'];
 var randomWord = wordArray[Math.floor(Math.random() * wordArray.length)];
 
 var word = document.getElementById('word');

@@ -1,0 +1,56 @@
+body {
+  background-color: #D2E8ED;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#container {
+  width: 503px;
+  margin: 0 auto;
+}
+
+#note {
+  height: 70px;
+  width: 400px;
+  vertical-align: top;
+  resize: none;
+  font-size: 20px;
+}
+
+#button {
+  height: 70px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(144, 144, 144);
+  border: 2px solid rgb(181, 182, 182);
+  padding: 5px 13px;
+  background-color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.note-container {
+  width: 443px;
+  background-color: white;
+  border-bottom: 1px solid #C2C0C0;
+  padding: 30px;
+  margin: auto;
+  line-height: 35px;
+}
+
+.content {
+  height:
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#form {
+  margin-bottom: 10px;
+}
