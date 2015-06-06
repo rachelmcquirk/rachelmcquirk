@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#input {
+  margin: 25px auto;
+  width: 356px;
+  background-color: rgba(128, 128, 128, 0.21);
+  padding: 13px 26px;
+}
+
+#text-entry {
+  height: 31px;
+  font-size: 18px;
+  width: 293px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  outline: none;
+}
+
+button {
+  padding: 2px 5px;
+  vertical-align: top;
+  background-color: rgb(39, 221, 62);
+  border: 2px solid rgb(29, 157, 21);
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  outline: none;
+}
+
+#canvas {
+  margin-top: 12%;
+}

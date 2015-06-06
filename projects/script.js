@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/textscroll',
+    screenshot: '/images/projects/notepost.png',
+    name: 'Scrolling Text',
+    description: 'Enter some text and watch it scroll, then enter some more, if you wish.'
+  },
+  {
     link: '/projects/notepost',
     screenshot: '/images/projects/notepost.png',
     name: 'Note Post',
