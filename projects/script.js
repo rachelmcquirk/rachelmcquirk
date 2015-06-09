@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/poll',
+    screenshot: '/images/projects/textscroll.png',
+    name: 'Poll',
+    description: 'Time for a poll! Which gif is your favorite?'
+  },
+  {
     link: '/projects/textscroll',
     screenshot: '/images/projects/textscroll.png',
     name: 'Scrolling Text',
