@@ -47,14 +47,17 @@ var buttonClick = function() {
 
   var answer = document.querySelector('input[name="q1"]:checked').value;
 
+  if (!voteArr[answer])
+    voteArr[answer] = 0;
   voteArr[answer] += 1;
   totalVotes += 1;
-
   if (document.querySelectorAll('input:checked').length < 1)
     alert('Oops, looks like you haven\'t answered the question!');
 
   var percentDivs = document.querySelectorAll('.percent');
   for (var j = 0; j < choices.length; j++) {
+    if (!voteArr[j])
+      voteArr[j] = 0;
     var percent = Math.round((voteArr[j] / totalVotes) * 100);
     percentDivs[j].innerHTML = percent + '%';
   }

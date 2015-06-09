@@ -51,3 +51,7 @@ button {
   font-family: 'Bree Serif', serif;
   outline: none;
 }
+
+.percent {
+  font-size: 25px;
+}
