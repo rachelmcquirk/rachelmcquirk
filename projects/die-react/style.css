@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(228, 252, 228);
+}
+
+h1 {
+  margin-top:30px;
+  font-size: 70px;
+}
+
+#die {
+  height: 200px;
+  width: 200px;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  background-color: rgb(71, 174, 192);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#one {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 17px;
+  left: 11px;
+}
+
+#two {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 78px;
+  left: -38px;
+}
+
+#three {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 140px;
+  left: -86px;
+}
+
+#four {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 17px;
+  left: -10px;
+}
+
+#five {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 29px;
+  left: 50px;
+}
+
+#six {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 31px;
+  left: 64px;
+}
+
+#seven {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  top: 91px;
+  left: 15px;
+}
+
+.visible {
+  background-color: white;
+}
+
+button {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border: 3px solid rgb(213, 110, 86);
+  padding: 8px 19px;
+  background-color: rgb(252, 139, 124);
+  font-size: 28px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(250, 123, 106);
+  border: 2px solid rgb(211, 82, 52);
+}
+
+button:active {
+  background-color: rgb(247, 106, 88);
+}
