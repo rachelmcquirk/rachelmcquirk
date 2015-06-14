@@ -37,7 +37,7 @@ $(document).ready(function() {
     function changeColor() {
       var message = document.getElementById('message');
       var number = randomColor();
-      document.body.style.backgroundColor = randomColor();
+      document.body.style.backgroundColor = number;
       message.innerHTML = 'The color of the minute is ' + number;
     }
 
