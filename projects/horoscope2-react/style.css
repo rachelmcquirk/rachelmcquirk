@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(150, 229, 181);
+  font-family: 'Karla', sans-serif;
+}
+
+#wrapper {
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  align-self: center;
+  background-color: #eee;
+  padding: 20px;
+}
+
+#inner-wrapper {
+  background-color: #eee;
+  height: 350px;
+  width: 550px;
+  background-color: rgba(234, 234, 234, 0.61);
+  height: inherit;
+  display: inline-block;
+  width: inherit;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#birthDay {
+  display: inline-block;
+}
+
+.zodiacSign {
+  display: inline-block;
+}
+
+.horoscope {
+  display: inline-block;
+}
+
+select {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #eee;
+  border: 1px solid black;
+  outline: none;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+img {
+  height: 200px;
+}
+
+button {
+  width: 91px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(113, 47, 211);
+  color: white;
+  border: 3px solid rgba(78, 34, 155, 0.99);
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(125, 56, 227);
+}
+
+button:active {
+  background-color: rgb(106, 45, 195);
+}
