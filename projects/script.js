@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/colorsquares',
+    screenshot: '/images/projects/colorsquares.png',
+    name: 'Color Squares',
+    description: 'Just click and beautiful color squares will appear'
+  },
+  {
     link: '/projects/poll',
     screenshot: '/images/projects/poll.png',
     name: 'Gif Poll',

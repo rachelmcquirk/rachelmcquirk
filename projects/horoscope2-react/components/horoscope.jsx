@@ -83,7 +83,7 @@ var Horoscope = React.createClass({
       xmlhttp.send();
   },
   render: function() {
-    var wrapperStyle = {width:this.state.wrapperWidth, height: this.state.wrapperHeight};
+    var wrapperStyle = {width: this.state.wrapperWidth, height: this.state.wrapperHeight};
     var horoscopeInputStyle = {display: this.state.signImage ? 'none' : 'block'};
     var zodiacStyle = {display: this.state.signImage ? 'block' : 'none'};
 
