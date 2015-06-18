@@ -12,6 +12,7 @@ body {
 
 h1 {
   margin-top: 50px;
+  transition: color 0.5s;
 }
 
 #blocks-container {
@@ -27,4 +28,23 @@ h1 {
 .blocks {
   height: 100px;
   width: 100px;
+}
+
+/*Message page style*/
+
+textarea {
+  height: 200px;
+  width: 1000px;
+  font-size: 18px;
+  border: 2px dashed black;
+  display: inline-block;
+  padding: 15px;
+  resize: none;
+  margin: 0 auto;
+  display: block;
+  transition: color 0.5s;
+}
+
+textarea:focus {
+  outline: none;
 }
