@@ -27,9 +27,11 @@
 
       var Router = window.ReactRouter;
       var Route = window.ReactRouter.Route;
+      var DefaultRoute = window.ReactRouter.DefaultRoute;
 
       var routes = (
         <Route handler={App}>
+          <DefaultRoute name="count" handler={Count}/>
           <Route path="count" handler={Count}/>
           <Route path="message" handler={Message}/>
         </Route>
