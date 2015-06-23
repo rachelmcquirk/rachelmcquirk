@@ -1,17 +1,16 @@
 <html>
   <head>
     <link href='style.css' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <title>Color Click</title>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Roboto' rel='stylesheet' type='text/css'>
+    <title>Sight and Sound</title>
   </head>
 
   <body>
     <script src="https://fb.me/react-0.13.3.js"></script>
     <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/0.13.3/ReactRouter.js"></script>
-    <script src='randomColor.js'></script>
-    <script src='components/count.jsx' type='text/jsx'></script>
-    <script src='components/message.jsx' type='text/jsx'></script>
+    <script src='components/sound.jsx' type='text/jsx'></script>
+    <script src='components/sound2.jsx' type='text/jsx'></script>
     <script type='text/jsx'>
       var RouteHandler = window.ReactRouter.RouteHandler;
 
@@ -31,9 +30,9 @@
 
       var routes = (
         <Route handler={App}>
-          <DefaultRoute name="count" handler={Count}/>
-          <Route path="count" handler={Count}/>
-          <Route path="message" handler={Message}/>
+          <DefaultRoute name="sound" handler={Sound}/>
+          <Route path="sound" handler={Sound}/>
+          <Route path="sound2" handler={Sound2}/>
         </Route>
       );
       Router.run(routes, Router.HashLocation, function(Root) {

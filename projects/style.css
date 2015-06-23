@@ -113,3 +113,16 @@ a:hover {
 .col-md-4 {
   margin-bottom: 35px;
 }
+
+#background-div {
+  background-color: rgba(118, 112, 112, 0.34);
+  height: 75px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 138px;
+}
+
+#background-div h1 {
+  color: white;
+  margin-top: 10px;
+}

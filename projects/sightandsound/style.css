@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.beach {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.stars {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 8%;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(66, 147, 76);
+}
+
+button {
+  margin: 10 auto;
+  display: block;
+  padding: 10px 17px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #A2E29D;
+  font-family: 'Bree Serif', serif;
+  outline: none;
+}
