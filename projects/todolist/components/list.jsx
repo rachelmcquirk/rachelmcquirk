@@ -2,7 +2,7 @@ var List = React.createClass({
   getInitialState: function () {
     return {
       listItems: [],
-      value: ''
+      value: '',
     };
   },
   onKeyDown: function (e) {
@@ -17,16 +17,27 @@ var List = React.createClass({
     listItemElements = [];
     var listItems = this.state.listItems;
     for (var i = 0; i < listItems.length; i++) {
-      listItemElements.push(
-        <div className='item'>
-          <div className='squaredFour'>
-            <input type='checkbox' value='None' id='squaredFour' name='check' />
-            <label for='squaredFour'></label>
-          </div>
-          <div id='item-text'>{listItems[i]}</div>
-        </div>);
+      var self = this;
+      (function(i) {
+        var onClick = function () {
+          self.state.listItems.splice(i, 1);
+          console.log(i);
+          self.setState({listItems: self.state.listItems});
+          console.log(self.state.listItems);
+        };
+
+        listItemElements.push(
+          <div className='item'>
+            <div className='squaredFour'>
+              <input type='checkbox' value='None' id='squaredFour' name='check' />
+              <label for='squaredFour'></label>
+            </div>
+            <div id='item-text'>{listItems[i]}</div>
+            <div className='cross-off' onClick={onClick}>x</div>
+          </div>);
+        })(i);
     }
-    console.log(listItems);
+
     return (
       <div>
         <h1>To-dos</h1>

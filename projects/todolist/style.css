@@ -5,7 +5,10 @@ body {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 75px;
+  color: rgba(116, 77, 194, 0.42);
 }
 
 #new-todo {
@@ -14,6 +17,7 @@ h1 {
   width: 550px;
   display: flex;
   margin: 0px auto;
+  border: 1px solid #DBDADA;
 }
 
 #item-text {
@@ -27,8 +31,19 @@ h1 {
   width: 550px;
   display: flex;
   margin: 0px auto;
-  border-top: 2px solid #DBDADA;
+  border: 1px solid #DBDADA;
   font-size: 25px;
+}
+
+.cross-off {
+  color: rgb(239, 154, 154);
+  padding: 15px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.cross-off:hover {
+  color: rgb(221, 83, 83);
 }
 
 input[type=text] {
@@ -40,6 +55,22 @@ input[type=text] {
 
 input[type=text]:focus {
   outline: 0;
+}
+
+::-webkit-input-placeholder {
+   color: #D5D4D4;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #D5D4D4;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #D5D4D4;
+}
+
+:-ms-input-placeholder {
+   color: #D5D4D4;
 }
 
 /*checkbox style*/
