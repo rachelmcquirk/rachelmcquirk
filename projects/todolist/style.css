@@ -8,7 +8,7 @@ h1 {
   margin-top: 50px;
   margin-bottom: 15px;
   font-size: 75px;
-  color: rgba(116, 77, 194, 0.42);
+  color: rgba(129, 213, 219, 0.77);
 }
 
 #new-todo {
@@ -20,7 +20,7 @@ h1 {
   border: 1px solid #DBDADA;
 }
 
-#item-text {
+.item-text {
   padding: 17px;
   font-weight: bold;
 }
@@ -33,6 +33,11 @@ h1 {
   margin: 0px auto;
   border: 1px solid #DBDADA;
   font-size: 25px;
+}
+
+.is-checked {
+  color: #D5D4D4;
+  text-decoration: line-through;
 }
 
 .cross-off {
@@ -102,7 +107,7 @@ input[type=text]:focus {
   position: absolute;
   top: 4px;
   left: 4px;
-  border: 3px solid #333;
+  border: 3px solid rgba(129, 213, 219, 1);
   border-top: none;
   border-right: none;
   background: transparent;
