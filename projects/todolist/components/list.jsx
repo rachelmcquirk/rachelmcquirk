@@ -1,7 +1,7 @@
 var List = React.createClass({
   getInitialState: function () {
     return {
-      listItems: [],
+      listItems: JSON.parse(localStorage.getItem('list') || '[]'),
       value: ''
     };
   },
@@ -18,6 +18,8 @@ var List = React.createClass({
     this.setState({value: event.target.value});
   },
   render: function () {
+    localStorage.setItem('list', JSON.stringify(this.state.listItems));
+
     listItemElements = [];
     var listItems = this.state.listItems;
     for (var i = 0; i < listItems.length; i++) {

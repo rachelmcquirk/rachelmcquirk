@@ -1,5 +1,11 @@
 var projects = [
   {
+    link: '/projects/todolist',
+    screenshot: '/images/projects/todolist.png',
+    name: 'To-do List',
+    description: 'Organize what you need to do today'
+  },
+  {
     link: '/projects/colorsquares',
     screenshot: '/images/projects/colorsquares.png',
     name: 'Color Squares',
