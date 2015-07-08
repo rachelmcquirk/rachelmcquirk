@@ -17,8 +17,25 @@ body {
 #picture {
   height: 240px;
   border-radius: 50%;
+  box-shadow: 7px 0px 17px #A5A5A8;
+}
+
+#picture:hover {
+  height: 250px;
+  cursor: pointer;
 }
 
 #adjectives {
   font-weight: bold;
+}
+
+#end-div {
+  opacity: 0;
+  -webkit-transition: opacity 3s ease-in;
+   -moz-transition: opacity 3s ease-in;
+   -o-transition: opacity 3s ease-in;
+   -ms-transition: opacity 3s ease-in;
+   transition: opacity 3s ease-in;
+  margin-left: 70px;
+  margin-right: 70px;
 }
