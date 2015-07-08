@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  background-color: rgb(233, 250, 245);
+}
+
+#happy {
+  font-size: 80px;
+}
+
+#title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#picture {
+  height: 240px;
+  border-radius: 50%;
+}
+
+#adjectives {
+  font-weight: bold;
+}
