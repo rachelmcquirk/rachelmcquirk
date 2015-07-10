@@ -58,6 +58,15 @@ input[type=text] {
   font-style: italic;
 }
 
+@media screen and (max-width: 549px) {
+    #new-todo {
+      width: 100%;
+    }
+    .item {
+      width: 100%;
+    }
+}
+
 input[type=text]:focus {
   outline: 0;
 }
